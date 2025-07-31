@@ -1,13 +1,8 @@
-*{
-    overflow-x: hidden;
-}
-
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
 }
 
 /*NavBar Styling*/
@@ -27,7 +22,6 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 999;
-    overflow: hidden;
 }
 .my-navbar::selection {
     background-color: #6c97d8;
@@ -417,7 +411,6 @@ li {
     height: auto;
     background-color: #2d4e80;
     gap: 40px;
-    overflow-y: hidden;
 }
 .education-page::selection {
     color: white;
@@ -498,7 +491,6 @@ li {
         display: flex;
         flex-direction: column;
         width: auto;
-        overflow-y: hidden;
     }
     #resume-heading {
     padding: 30px;
@@ -541,9 +533,8 @@ li {
     margin: 0;
     display: flex;
     justify-content: center;
-    height: 80px;
+    height: 60px;
     gap: 0px;
-    overflow: hidden;
 }
 .footer::selection {
     color: white;
@@ -574,7 +565,6 @@ li {
 @media screen and (max-width:792px) {
     .footer {
         gap: 0;
-        overflow: hidden;
     }
     .copyright {
         padding: 0;
