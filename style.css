@@ -27,6 +27,7 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 999;
+    overflow: hidden;
 }
 .my-navbar::selection {
     background-color: #6c97d8;
