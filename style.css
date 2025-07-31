@@ -541,6 +541,7 @@ li {
     justify-content: center;
     height: 60px;
     gap: 0px;
+    overflow: hidden;
 }
 .footer::selection {
     color: white;
