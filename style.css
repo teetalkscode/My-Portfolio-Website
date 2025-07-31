@@ -539,7 +539,7 @@ li {
     margin: 0;
     display: flex;
     justify-content: center;
-    height: 60px;
+    height: 80px;
     gap: 0px;
     overflow: hidden;
 }
