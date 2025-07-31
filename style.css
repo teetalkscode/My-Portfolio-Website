@@ -462,7 +462,7 @@ li {
     background-color: transparent;
     color: white;
     font-size: 50px;
-    gap: 5px;
+    gap: 10px;
 }
 .resume-button:hover {
     color: #6c97d8;
