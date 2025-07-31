@@ -528,7 +528,7 @@ li {
         padding: 20px;
     }
     .resume-item {
-        min-width: 100%;
+        min-width: 90%;
         width: auto;
         float: none;
         right: 0;
