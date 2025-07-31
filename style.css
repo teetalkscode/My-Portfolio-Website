@@ -417,6 +417,7 @@ li {
     height: auto;
     background-color: #2d4e80;
     gap: 40px;
+    overflow-y: hidden;
 }
 .education-page::selection {
     color: white;
@@ -497,6 +498,7 @@ li {
         display: flex;
         flex-direction: column;
         width: auto;
+        overflow-y: hidden;
     }
     #resume-heading {
     padding: 30px;
