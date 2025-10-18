@@ -415,7 +415,7 @@ li {
 }
 @media screen and (max-width:792px) {
     .project-popup {
-    display: block;
+    display: none;
     height: 500px;
     width: 300px;
     margin: 0;
