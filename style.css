@@ -361,20 +361,47 @@ li {
     text-align: center;
 }
 .pop-up-logo {
-    width: 450px;
+    width: 100px;
+}
+.Banner1 {
+    height: 120px;
+    width: 100px;
     padding: 0;
-    margin: 0;
+    margin-top: 20px;
+    border: 2px solid #8db5f0;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 90px;
     font-size: 90px;
-    color: white;
-}
-.pop-up-logo:hover {
     transition: 0.3s ease;
-    color: #6c97d8;
-    cursor: wait;
+}
+.Banner1:hover {
+    transition: 0.3s ease;
+    border-color: white;
+}
+
+#project-decp {
+    width: 220px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    position: relative;
+    bottom: 70px;
+}
+.link1 {
+    text-decoration: none;
+    color: inherit;
+}
+#decp-text {
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease;
+}
+#decp-text:hover {
+    transition: 0.3s ease;
+    color: #8db5f0;
+    cursor: pointer;
 }
 .project-bio {
     width: 450px;
@@ -388,7 +415,7 @@ li {
 }
 @media screen and (max-width:792px) {
     .project-popup {
-    display: none;
+    display: block;
     height: 500px;
     width: 300px;
     margin: 0;
@@ -396,15 +423,11 @@ li {
     #project-popup-title {
         width: 250px;
     }
-    .p-p-title {
-        font-size: 19px;
+    #project-decp {
+        margin-left: 100px;
     }
-    .pop-up-logo {
-        width: 250px;
-    }
-    .project-bio {
-        width: 250px;
-        left: 8px;
+    #decp-text {
+    font-size: 12px;
     }
 }
 
@@ -588,3 +611,4 @@ li {
         color: #2d4e80;
     }
 }
+
