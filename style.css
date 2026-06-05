@@ -120,7 +120,7 @@ li {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 100vh;
+    height: 638px;
 }
 .home-page::selection {
     background-color: #6c97d8;
@@ -200,7 +200,7 @@ li {
         left: 50%;
         border-radius: 20px;
         transform: translate(-50%, -50%);
-        height: 540px;
+        height: 500px;
         width: 500px;
         background: #2d4e80;
         padding: 20px;
@@ -438,7 +438,7 @@ li {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    min-height: 100vh;
+    min-height: 638px;
     height: auto;
     background-color: #2d4e80;
     gap: 40px;
